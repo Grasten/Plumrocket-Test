@@ -735,13 +735,19 @@ Welcome, Guest!</span> </p>
 </div>
  
   <div class="main__design">
-    <img src="./Images/designWave.svg" alt="" class="main__design__wave">
+    <svg class="main__design__svg">
+     <clipPath id="designWave--full" clipPathUnits="objectBoundingBox"><path d="M0,0.092 C0.15,0.076,0.298,0.057,0.503,0.04 C0.582,0.04,0.597,0.136,0.673,0.136 C0.748,0.136,0.756,0.026,0.827,0.026 C0.935,0.016,0.953,0.008,1,0 V1 H0 L0,0.092"></path></clipPath>
+    </svg>
+   <svg class="main__design__svg">
+    <clipPath id="designWave--mid" clipPathUnits="objectBoundingBox"><path d="M0,0.015 C0,0.015,0.229,0.005,0.357,0 C0.542,0,0.578,0.102,0.754,0.102 C0.879,0.102,0.999,0.009,0.999,0.009 V1 H-0.001 L0,0.015"></path></clipPath>
+   </svg>
     <div class="main__design__filler"></div>
+    <div class="main__design__back"><div class="main__design__back__actual"></div></div>
      <div class="main__design__content index-info-template">
       <div class="main__design__content__text index-info-template__main">
         <div class="index-info-template__main__title">
-          <img src="Images/hexBlue.svg" class="index-info-template__main__title__hex1" />
-          <img src="Images/hexPinkSmall.svg" class="index-info-template__main__title__hex2" />
+          <img src="Images/hexBlue.svg" class="index-info-template__main__title__hex1"  alt=""/>
+          <img src="Images/hexPinkSmall.svg" class="index-info-template__main__title__hex2"  alt=""/>
           <p class="index-info-template__main__title__text">Magento UX/UI Design</p>
         </div>
         <p class="index-info-template__main__text">
@@ -749,29 +755,34 @@ Welcome, Guest!</span> </p>
          experience.  So whether you need to create a Magento theme from scratch or develop a landing page, we are all
          here for you.
         </p>
-        <div class="index-info-template__main__options">
-          <a href="">Custom Magento Design</a>
-         <p>Magento AMP Design</p>
-         <p>Magento Theme Development</p>
-          <p>Magento Landing Page Design</p>
+      </div>
+      <div class="index-info-template__options">
+       <div class="index-info-template__options__main">
+        <a href="">Custom Magento Design</a>
+        <p>Magento AMP Design</p>
+        <p>Magento Theme Development</p>
+        <p>Magento Landing Page Design</p>
+       </div>
+       <a href="" class="index-info-template__options__more">
+        See More
+        <div class="index-info-template__options__more__circle">
+         <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 8L5 4.5L1 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+         </svg>
         </div>
-        <a href="" class="index-info-template__main__more">
-          See More
-          <div class="index-info-template__main__more__circle">
-            <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 8L5 4.5L1 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-        </a>
-     </div>
+       </a>
+      </div>
       <div class="main__design__content__imagebox index-info-template__imagebox">
+       <div class="index-info-template__imagebox__back"></div>
        <img
-           src="Images/designPhone.png" alt=""
+           src="Images/designPhoneFull.png" alt=""
            class="main__design__content__imagebox__image index-info-template__imagebox__image"
        >
       </div>
     </div>
   </div>
+ 
+ <div class="clipped"></div>
   
   <div class="main__integrations"></div>
  
@@ -788,24 +799,28 @@ Welcome, Guest!</span> </p>
       install the latest Magento updates and releases. We have years of extensive experience migrating
       and installing Magento stores that are configured with custom extensions or modules.
      </p>
-     <div class="index-info-template__main__options">
+    </div>
+    <div class="index-info-template__options">
+     <div class="index-info-template__options__main">
       <a href="">Migrating Magento to Shopify</a>
       <p>Magento Upgrade</p>
       <p>Magento AMP Migration</p>
       <p>Migration To Magento</p>
       <p>Magento Data Migration</p>
      </div>
-     <a href="" class="index-info-template__main__more">
+     <a href="" class="index-info-template__options__more">
       See More
-      <div class="index-info-template__main__more__circle">
+      <div class="index-info-template__options__more__circle">
        <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1 8L5 4.5L1 1" stroke="#333B4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
        </svg>
       </div>
      </a>
     </div>
-    <div class="main__migration__content__images">
-     <img src="Images/migrationPhoto.png" alt="" class="main__migration__content__images__image">
+    <div class="main__migration__content__images index-info-template__imagebox">
+     <img src="Images/migrationPhoto.png" alt=""
+          class="main__migration__content__images__image index-info-template__imagebox__image"
+     >
     </div>
    </div>
    <div class="main__migration__clone"></div>
