@@ -15,37 +15,45 @@
 <body>
 <div class="main-container col1-layout">
   <div class="main">
-    <div class="main__wrap">
-      <div class="main__greet">
-        <div class="main__greet__content">
-          <div class="main__greet__content__box">
-            <h1 class="main__greet__content__box__title">Expert Magento Services</h1>
-            <p class="main__greet__content__box__subtitle">Your most creative ideas deserve to be brought to life</p>
-            <p class="main__greet__content__box__desc">
+    <div class="wrap">
+      <div class="greet">
+        <div class="greet__content">
+          <div class="greet__content__box">
+            <h1 class="greet__content__box__title">Expert Magento Services</h1>
+            <p class="greet__content__box__subtitle">Your most creative ideas deserve to be brought to life</p>
+            <p class="greet__content__box__desc">
               Need help setting up, improving, or growing your eCommerce store? We're here for you. We'll help you
               bring your eCommerce dreams to life with our creative and professional approach, our commitment to
               responsive service, and our passion to create beautiful solutions that work.
             </p>
-            <button class="main__greet__content__box__button">TALK TO US</button>
+            <button class="greet__content__box__button">TALK TO US</button>
           </div>
         </div>
       </div>
       
-      <div class="main__offers">
-        <div class="main__offers__wave"></div>
-        <div class="main__offers__title">
-          <p class="main__offers__title__main">
+      <div class="offers">
+        <div class="offers__wave"></div>
+        <div class="offers__title">
+          <p class="offers__title__main">
             What Can We Do For You?
           </p>
-          <p class="main__offers__title__sub">
+          <p class="offers__title__sub">
             OUR MAGENTO SERVICES
           </p>
         </div>
-        <div class="main__offers__content mTemplate">
+        <div class="mTemplate">
           <div class="mTemplate__imagebox">
             <img
               src="./Images/offerImage.png" alt=""
-              class="mTemplate__imagebox__image"
+              class="mTemplate__imagebox__image offers-image-big"
+            >
+            <img
+              src="./Images/offerImageMedium.png" alt=""
+              class="mTemplate__imagebox__image offers-image-medium"
+            >
+            <img
+              src="./Images/offerImageSmall.png" alt=""
+              class="mTemplate__imagebox__image offers-image-small"
             >
           </div>
           <div class="mTemplate__main">
@@ -55,15 +63,14 @@
               <p class="mTemplate__main__title__text">Magento Development</p>
             </div>
             <p class="mTemplate__main__text">
-              Our experts will help you integrate your Magento store with other software
-              systems to automate billing and shipping, implement marketing and affiliate strategies,
-              tracking and analytics
-              tools, and much more so that your business can run at maximum profitability.
+              Need custom functionality on your website, extend the existing one, or help with extensions?
+              Our expert development team has the technical skill and knowledge to help you realize your business
+              vision and fully tailor the platform to your unique needs.
             </p>
           </div>
           <div class="mTemplate__options">
             <div class="mTemplate__options__main">
-              <a href="">Magento Development</a>
+              <p>Magento Development</p>
               <p>Magento Custom Extension Development</p>
               <p>Magento Web Development</p>
               <p>Magento Extension Installation Service</p>
@@ -89,41 +96,39 @@
         </div>
       </div>
       
-      <div class="main__design">
-        <svg class="main__design__svg">
+      <div class="design">
+        <svg class="design__svg">
           <clipPath id="designWave--full" clipPathUnits="objectBoundingBox">
             <path
               d="M0,0.092 C0.15,0.076,0.298,0.057,0.503,0.04 C0.582,0.04,0.597,0.136,0.673,0.136 C0.748,0.136,0.756,0.026,0.827,0.026 C0.935,0.016,0.953,0.008,1,0 V1 H0 L0,0.092"></path>
           </clipPath>
         </svg>
-        <svg class="main__design__svg">
+        <svg class="design__svg">
           <clipPath id="designWave--mid" clipPathUnits="objectBoundingBox">
             <path
               d="M0,0.015 C0,0.015,0.229,0.005,0.357,0 C0.542,0,0.578,0.102,0.754,0.102 C0.879,0.102,0.999,0.009,0.999,0.009 V1 H-0.001 L0,0.015"></path>
           </clipPath>
         </svg>
-        <div class="main__design__filler"></div>
-        <div class="main__design__back">
-          <div class="main__design__back__actual"></div>
+        <div class="design__filler"></div>
+        <div class="design__back">
+          <div class="design__back__actual"></div>
         </div>
-        <div class="main__design__content mTemplate">
-          <div class="main__design__content__text mTemplate__main">
+        <div class="mTemplate">
+          <div class="mTemplate__main">
             <div class="mTemplate__main__title">
               <img src="./Images/hexBlue.svg" class="mTemplate__main__title__hex1" alt=""/>
               <img src="./Images/hexPinkSmall.svg" class="mTemplate__main__title__hex2" alt=""/>
               <p class="mTemplate__main__title__text">Magento UX/UI Design</p>
             </div>
             <p class="mTemplate__main__text">
-              Combining creativity with expertise, we design high-converting interfaces that focus on the
-              user journey and
-              experience. So whether you need to create a Magento theme from scratch or develop a landing
-              page, we are all
-              here for you.
+              Combining creativity with expertise, we design high-converting interfaces that focus on the user journey
+              and experience.  So whether you need to create a Magento theme from scratch or develop a landing page,
+              we are all here for you.
             </p>
           </div>
           <div class="mTemplate__options">
             <div class="mTemplate__options__main">
-              <a href="">Custom Magento Design</a>
+              <p>Custom Magento Design</p>
               <p>Magento AMP Design</p>
               <p>Magento Theme Development</p>
               <p>Magento Landing Page Design</p>
@@ -139,11 +144,11 @@
               </div>
             </a>
           </div>
-          <div class="main__design__content__imagebox mTemplate__imagebox">
+          <div class="mTemplate__imagebox">
             <div class="mTemplate__imagebox__back"></div>
             <img
               src="./Images/designPhoneFull.png" alt=""
-              class="main__design__content__imagebox__image mTemplate__imagebox__image"
+              class="mTemplate__imagebox__image"
             >
           </div>
         </div>
@@ -151,11 +156,58 @@
       
       <div class="clipped"></div>
       
-      <div class="main__integrations"></div>
+      <div class="integrations">
+        <div class="integrations__back"></div>
+        <div class="mTemplate">
+          <div class="mTemplate__imagebox">
+            <img
+              src="./Images/integImageBig.png" alt=""
+              class="mTemplate__imagebox__image integrations-image-big"
+            >
+            <img
+              src="./Images/integImageSmall.png" alt=""
+              class="mTemplate__imagebox__image integrations-image-small"
+            >
+          </div>
+          <div class="mTemplate__main">
+            <div class="mTemplate__main__title">
+              <img src="./Images/hexOrangeBig.svg" class="mTemplate__main__title__hex1" alt=""/>
+              <img src="./Images/hexLightgreenSmall.svg" class="mTemplate__main__title__hex2" alt=""/>
+              <p class="mTemplate__main__title__text">Magento Integrations</p>
+            </div>
+            <p class="mTemplate__main__text">
+              Our experts will help you integrate your Magento store with other software systems to automate billing
+              and shipping, implement marketing and affiliate strategies, tracking and analytics tools, and much more
+              so that your business can run at maximum profitability.
+            </p>
+          </div>
+          <div class="mTemplate__options">
+            <div class="mTemplate__options__main">
+              <p>Magento ERP Integration</p>
+              <p>Magento Shipping Integration</p>
+              <p>Magento CRM Integration</p>
+              <p>Magento Payment Integration</p>
+              <p>Magento API Integration</p>
+              <p>Magento PIM Integration</p>
+              <p>Magento CMS Integration</p>
+            </div>
+            <a href="" class="mTemplate__options__more">
+              See More
+              <div class="mTemplate__options__more__circle">
+                <svg width="6" height="9" viewBox="0 0 6 9" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 8L5 4.5L1 1" stroke="white" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
       
-      <div class="main__migration">
-        <div class="main__migration__content mTemplate">
-          <div class="main__migration__content__text mTemplate__main">
+      <div class="migration">
+        <div class="migration__content mTemplate">
+          <div class="migration__content__text mTemplate__main">
             <div class="mTemplate__main__title">
               <img src="./Images/hexPink.svg" alt="" class="mTemplate__main__title__hex1">
               <img src="./Images/hexPurpleSmall.svg" alt="" class="mTemplate__main__title__hex2">
@@ -171,7 +223,7 @@
           </div>
           <div class="mTemplate__options">
             <div class="mTemplate__options__main">
-              <a href="">Migrating Magento to Shopify</a>
+              <p>Migrating Magento to Shopify</p>
               <p>Magento Upgrade</p>
               <p>Magento AMP Migration</p>
               <p>Migration To Magento</p>
@@ -188,7 +240,7 @@
               </div>
             </a>
           </div>
-          <div class="main__migration__content__imagebox mTemplate__imagebox">
+          <div class="migration__content__imagebox mTemplate__imagebox">
             <div class="mTemplate__imagebox__back"></div>
             <img src="./Images/migrationImageBig.png" alt=""
                  class="migration-image-big mTemplate__imagebox__image"
@@ -198,10 +250,10 @@
             >
           </div>
         </div>
-        <div class="main__migration__clone"></div>
+        <div class="migration__clone"></div>
       </div>
       
-      <div class="main__audit"></div>
+      <div class="audit"></div>
     </div>
   </div>
 </div>
